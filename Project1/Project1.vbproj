@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{5302CC81-BF6E-4C7E-8471-C56EF6B28FEE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Air.aspx" />
+    <Content Include="Electrician.aspx" />
+    <Content Include="Faq.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="GeyserSpecialist.aspx" />
+    <Content Include="HowItWorks.aspx" />
+    <Content Include="images\a1.jpg" />
+    <Content Include="images\a2.jpg" />
+    <Content Include="images\a3.jpg" />
+    <Content Include="images\a4.jpg" />
+    <Content Include="images\beard.jpg" />
+    <Content Include="images\elec1.jpg" />
+    <Content Include="images\elec2.jpg" />
+    <Content Include="images\elec3.jpg" />
+    <Content Include="images\elec4.jpg" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\pc1.jpg" />
+    <Content Include="images\pc2.jpg" />
+    <Content Include="images\pc3.jpg" />
+    <Content Include="images\pc4.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Move.aspx" />
+    <Content Include="PestControl.aspx" />
+    <Content Include="PostAdClient.aspx" />
+    <Content Include="RegisterWorker.aspx" />
+    <Content Include="ClientOrWorker.aspx" />
+    <Content Include="css\bootstrap-select.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\easy-responsive-tabs.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui1.css" />
+    <Content Include="css\jquery.uls.css" />
+    <Content Include="css\jquery.uls.grid.css" />
+    <Content Include="css\jquery.uls.lcd.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.png" />
+    <Content Include="images\app.png" />
+    <Content Include="images\arrow1.png" />
+    <Content Include="images\arrow2.png" />
+    <Content Include="images\b1.jpg" />
+    <Content Include="images\b10.jpg" />
+    <Content Include="images\b11.jpg" />
+    <Content Include="images\b12.jpg" />
+    <Content Include="images\b13.jpg" />
+    <Content Include="images\b2.jpg" />
+    <Content Include="images\b3.jpg" />
+    <Content Include="images\b4.jpg" />
+    <Content Include="images\b5.jpg" />
+    <Content Include="images\b6.jpg" />
+    <Content Include="images\b7.jpg" />
+    <Content Include="images\b8.jpg" />
+    <Content Include="images\b9.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bk1.jpg" />
+    <Content Include="images\bk10.jpg" />
+    <Content Include="images\bk11.jpg" />
+    <Content Include="images\bk12.jpg" />
+    <Content Include="images\bk13.jpg" />
+    <Content Include="images\bk2.jpg" />
+    <Content Include="images\bk3.jpg" />
+    <Content Include="images\bk4.jpg" />
+    <Content Include="images\bk5.jpg" />
+    <Content Include="images\bk6.jpg" />
+    <Content Include="images\bk7.jpg" />
+    <Content Include="images\bk8.jpg" />
+    <Content Include="images\bk9.jpg" />
+    <Content Include="images\c1.jpg" />
+    <Content Include="images\c10.jpg" />
+    <Content Include="images\c11.jpg" />
+    <Content Include="images\c12.jpg" />
+    <Content Include="images\c13.jpg" />
+    <Content Include="images\c2.jpg" />
+    <Content Include="images\c3.jpg" />
+    <Content Include="images\c4.jpg" />
+    <Content Include="images\c5.jpg" />
+    <Content Include="images\c6.jpg" />
+    <Content Include="images\c7.jpg" />
+    <Content Include="images\c8.jpg" />
+    <Content Include="images\c9.jpg" />
+    <Content Include="images\cat1.png" />
+    <Content Include="images\cat10.png" />
+    <Content Include="images\cat11.png" />
+    <Content Include="images\cat12.png" />
+    <Content Include="images\cat2.png" />
+    <Content Include="images\cat3.png" />
+    <Content Include="images\cat4.png" />
+    <Content Include="images\cat5.png" />
+    <Content Include="images\cat6.png" />
+    <Content Include="images\cat7.png" />
+    <Content Include="images\cat8.png" />
+    <Content Include="images\cat9.png" />
+    <Content Include="images\client_1.jpg" />
+    <Content Include="images\client_2.jpg" />
+    <Content Include="images\client_3.jpg" />
+    <Content Include="images\client_4.jpg" />
+    <Content Include="images\close-quatation.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\d1.jpg" />
+    <Content Include="images\d10.jpg" />
+    <Content Include="images\d11.jpg" />
+    <Content Include="images\d12.jpg" />
+    <Content Include="images\d13.jpg" />
+    <Content Include="images\d2.jpg" />
+    <Content Include="images\d3.jpg" />
+    <Content Include="images\d4.jpg" />
+    <Content Include="images\d5.jpg" />
+    <Content Include="images\d6.jpg" />
+    <Content Include="images\d7.jpg" />
+    <Content Include="images\d8.jpg" />
+    <Content Include="images\d9.jpg" />
+    <Content Include="images\door.png" />
+    <Content Include="images\e1.jpg" />
+    <Content Include="images\e10.jpg" />
+    <Content Include="images\e11.jpg" />
+    <Content Include="images\e12.jpg" />
+    <Content Include="images\e13.jpg" />
+    <Content Include="images\e2.jpg" />
+    <Content Include="images\e3.jpg" />
+    <Content Include="images\e4.jpg" />
+    <Content Include="images\e5.jpg" />
+    <Content Include="images\e6.jpg" />
+    <Content Include="images\e7.jpg" />
+    <Content Include="images\e8.jpg" />
+    <Content Include="images\e9.jpg" />
+    <Content Include="images\f1.jpg" />
+    <Content Include="images\f2.jpg" />
+    <Content Include="images\f3.jpg" />
+    <Content Include="images\fa1.jpg" />
+    <Content Include="images\fa10.jpg" />
+    <Content Include="images\fa11.jpg" />
+    <Content Include="images\fa12.jpg" />
+    <Content Include="images\fa13.jpg" />
+    <Content Include="images\fa2.jpg" />
+    <Content Include="images\fa3.jpg" />
+    <Content Include="images\fa4.jpg" />
+    <Content Include="images\fa5.jpg" />
+    <Content Include="images\fa6.jpg" />
+    <Content Include="images\fa7.jpg" />
+    <Content Include="images\fa8.jpg" />
+    <Content Include="images\fa9.jpg" />
+    <Content Include="images\fr1.jpg" />
+    <Content Include="images\fr10.jpg" />
+    <Content Include="images\fr11.jpg" />
+    <Content Include="images\fr12.jpg" />
+    <Content Include="images\fr13.jpg" />
+    <Content Include="images\fr2.jpg" />
+    <Content Include="images\fr3.jpg" />
+    <Content Include="images\fr4.jpg" />
+    <Content Include="images\fr5.jpg" />
+    <Content Include="images\fr6.jpg" />
+    <Content Include="images\fr7.jpg" />
+    <Content Include="images\fr8.jpg" />
+    <Content Include="images\fr9.jpg" />
+    <Content Include="images\handyman-green.png" />
+    <Content Include="images\handyman-white.png" />
+    <Content Include="images\handyman_2.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\img-sprite.png" />
+    <Content Include="images\img-sprite1.png" />
+    <Content Include="images\iphone.png" />
+    <Content Include="images\k1.jpg" />
+    <Content Include="images\k10.jpg" />
+    <Content Include="images\k11.jpg" />
+    <Content Include="images\k12.jpg" />
+    <Content Include="images\k13.jpg" />
+    <Content Include="images\k2.jpg" />
+    <Content Include="images\k3.jpg" />
+    <Content Include="images\k4.jpg" />
+    <Content Include="images\k5.jpg" />
+    <Content Include="images\k6.jpg" />
+    <Content Include="images\k7.jpg" />
+    <Content Include="images\k8.jpg" />
+    <Content Include="images\k9.jpg" />
+    <Content Include="images\lock.png" />
+    <Content Include="images\m1.jpg" />
+    <Content Include="images\m10.jpg" />
+    <Content Include="images\m11.jpg" />
+    <Content Include="images\m12.jpg" />
+    <Content Include="images\m13.jpg" />
+    <Content Include="images\m2.jpg" />
+    <Content Include="images\m3.jpg" />
+    <Content Include="images\m4.jpg" />
+    <Content Include="images\m5.jpg" />
+    <Content Include="images\m6.jpg" />
+    <Content Include="images\m7.jpg" />
+    <Content Include="images\m8.jpg" />
+    <Content Include="images\m9.jpg" />
+    <Content Include="images\mob2.png" />
+    <Content Include="images\open-quatation.jpg" />
+    <Content Include="images\p1.jpg" />
+    <Content Include="images\p1.png" />
+    <Content Include="images\p10.jpg" />
+    <Content Include="images\p11.jpg" />
+    <Content Include="images\p12.jpg" />
+    <Content Include="images\p2.jpg" />
+    <Content Include="images\p2.png" />
+    <Content Include="images\p3.jpg" />
+    <Content Include="images\p3.png" />
+    <Content Include="images\p4.jpg" />
+    <Content Include="images\p4.png" />
+    <Content Include="images\p5.jpg" />
+    <Content Include="images\p6.jpg" />
+    <Content Include="images\p7.jpg" />
+    <Content Include="images\p8.jpg" />
+    <Content Include="images\p9.jpg" />
+    <Content Include="images\phone.png" />
+    <Content Include="images\r1.jpg" />
+    <Content Include="images\r10.jpg" />
+    <Content Include="images\r11.jpg" />
+    <Content Include="images\r12.jpg" />
+    <Content Include="images\r13.jpg" />
+    <Content Include="images\r2.jpg" />
+    <Content Include="images\r3.jpg" />
+    <Content Include="images\r4.jpg" />
+    <Content Include="images\r5.jpg" />
+    <Content Include="images\r6.jpg" />
+    <Content Include="images\r7.jpg" />
+    <Content Include="images\r8.jpg" />
+    <Content Include="images\r9.jpg" />
+    <Content Include="images\rate.png" />
+    <Content Include="images\rate1.png" />
+    <Content Include="images\rate3.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\service.png" />
+    <Content Include="images\services.png" />
+    <Content Include="images\ss1.jpg" />
+    <Content Include="images\ss2.jpg" />
+    <Content Include="images\ss3.jpg" />
+    <Content Include="images\stick.gif" />
+    <Content Include="images\stick_figure_handyman_toolbox_400_clr_40671.png" />
+    <Content Include="images\stucco.jpg" />
+    <Content Include="images\stucco1.jpg" />
+    <Content Include="images\themes1.png" />
+    <Content Include="images\tick.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\world_map.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\bootstrap-select.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\easyResponsiveTabs.js" />
+    <Content Include="js\filedrag.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.fileupload.js" />
+    <Content Include="js\jquery.flexisel.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.iframe-transport.js" />
+    <Content Include="js\jquery.knob.js" />
+    <Content Include="js\jquery.leanModal.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.ui.widget.js" />
+    <Content Include="js\jquery.uls.core.js" />
+    <Content Include="js\jquery.uls.data.js" />
+    <Content Include="js\jquery.uls.data.utils.js" />
+    <Content Include="js\jquery.uls.languagefilter.js" />
+    <Content Include="js\jquery.uls.lcd.js" />
+    <Content Include="js\jquery.uls.regionfilter.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\tabs.js" />
+    <Content Include="RegisterClient.aspx" />
+    <Content Include="RoofSpecialist.aspx" />
+    <Content Include="Tilling.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WorkerProfile.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Air.aspx.designer.vb">
+      <DependentUpon>Air.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Air.aspx.vb">
+      <DependentUpon>Air.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Electrician.aspx.designer.vb">
+      <DependentUpon>Electrician.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Electrician.aspx.vb">
+      <DependentUpon>Electrician.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Faq.aspx.designer.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faq.aspx.vb">
+      <DependentUpon>Faq.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.vb">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.vb">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GeyserSpecialist.aspx.designer.vb">
+      <DependentUpon>GeyserSpecialist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeyserSpecialist.aspx.vb">
+      <DependentUpon>GeyserSpecialist.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HowItWorks.aspx.designer.vb">
+      <DependentUpon>HowItWorks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HowItWorks.aspx.vb">
+      <DependentUpon>HowItWorks.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Move.aspx.designer.vb">
+      <DependentUpon>Move.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Move.aspx.vb">
+      <DependentUpon>Move.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PestControl.aspx.designer.vb">
+      <DependentUpon>PestControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PestControl.aspx.vb">
+      <DependentUpon>PestControl.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PostAdClient.aspx.designer.vb">
+      <DependentUpon>PostAdClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostAdClient.aspx.vb">
+      <DependentUpon>PostAdClient.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RegisterWorker.aspx.designer.vb">
+      <DependentUpon>RegisterWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterWorker.aspx.vb">
+      <DependentUpon>RegisterWorker.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ClientOrWorker.aspx.designer.vb">
+      <DependentUpon>ClientOrWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientOrWorker.aspx.vb">
+      <DependentUpon>ClientOrWorker.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegisterClient.aspx.designer.vb">
+      <DependentUpon>RegisterClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterClient.aspx.vb">
+      <DependentUpon>RegisterClient.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RoofSpecialist.aspx.designer.vb">
+      <DependentUpon>RoofSpecialist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RoofSpecialist.aspx.vb">
+      <DependentUpon>RoofSpecialist.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tilling.aspx.designer.vb">
+      <DependentUpon>Tilling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tilling.aspx.vb">
+      <DependentUpon>Tilling.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WorkerProfile.aspx.designer.vb">
+      <DependentUpon>WorkerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerProfile.aspx.vb">
+      <DependentUpon>WorkerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65251</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65251/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
