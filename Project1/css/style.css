@@ -350,6 +350,9 @@ border:1px solid #e7eaed;
 .focus-image i.fa-bolt {
 	background:#ff9e29;
 }
+.focus-image i.fa-check-square {
+	background:none;
+}
 
 .focus-image i.fa-user {
 	background:#ff9e29;
