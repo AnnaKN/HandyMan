@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="RegisterClient.aspx.vb" Inherits="Project1.Register" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="RegisterClient.aspx.vb" Inherits="Project1.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyBody" runat="server">
@@ -37,6 +37,20 @@
                             Your Email Address<span>*</span></div>
                         </label>
 						&nbsp;<input type="text" class="email" placeholder=""><div class="text-left">
+
+                        </div>
+
+						&nbsp;<div class="clearfix"></div>
+									
+					<div class="clearfix"></div>
+
+
+
+                        <label>
+                        <div class="text-left">
+                            Your Home Address<span>*</span></div>
+                        </label>
+						&nbsp;<input type="text" class="home" placeholder=""><div class="text-left">
                         </div>
 
 						&nbsp;<div class="clearfix"></div>
@@ -45,15 +59,15 @@
 
                      
 						
-                            <p class="post-terms">By clicking <strong>post Button</strong> you accept our <a href="terms.html" target="_blank">Terms of Use </a> and <a href="privacy.html" target="_blank">Privacy Policy</a></p>
+                            <p class="post-terms"> Your address above <strong> will be hidden </strong> until connection between<a href="terms.html" target="_blank"> Worker </a> and <a href="privacy.html" target="_blank">Client</a> is establishe</p>
 						
-
-                            <a href="PostAdClient.aspx"><input type="button" value="Register"/></a>
+                        <a href="PostAdClient.aspx"><input type="button" value="Register"/></a>
+                            <!--<a href="PostAdClient.aspx"><input type="button" value="Register"/></a>-->
 						
 						</div>
 					<div class="clearfix"></div>
 						<script src="js/filedrag.js"></script>
-
+                   
 					</form>
 					</div>
 

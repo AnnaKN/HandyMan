@@ -13,10 +13,11 @@
 			<div class="product-desc">
 				<div class="col-md-7 product-view">
                     <h1>Tiling Specialist</h1>
-					<h2>Previous work done</h2>
+					<h4>Previous work done</h4>
 					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p>
 					<div class="flexslider">
-						<ul class="slides">
+                        <img src="images/t1.jpg" />
+						<!--<ul class="slides">
 							<li data-thumb="images/t1.jpg">
 								<img src="images/t1.jpg" />
 							</li>
@@ -26,7 +27,7 @@
 							<li data-thumb="images/t3.jpg">
 								<img src="images/t3.jpg" />
 							</li>
-						</ul>
+						</ul>-->
 					</div>
 					<!-- FlexSlider -->
 					  <script defer src="js/jquery.flexslider.js"></script>
@@ -43,10 +44,11 @@
 					</script>
 					<!-- //FlexSlider -->
 					<div class="product-details">
-						<h4>Name : <a href="#">Worker Name</a></h4>
+						<h4>Name : <a href="#">Client Name</a></h4>
                         <h4>Worker Contact Number : <strong>+27762162582</strong></h4>
 						<h4>Worker email : <strong>mail@worker.co.za</strong></h4>
-						<p><strong>Summary</strong> : I'm the greatest worker ever</p>
+						<p><strong>Address</strong> : 1 First avenue,  this place, Gauteng</p>
+                        <a href="RegisterClient.aspx">Update your profile</a>
 					</div>
 				</div>
 				<div class="col-md-5 product-details-grid">
@@ -71,14 +73,35 @@
 						<h4>Interested?<br><small> Contact the Seller!</small></h4>
 						<p><i class="fa fa-check-square"></i>Book</p>
 					</div>
-						<div class="tips">
-						<h4>Safety Tips for Client</h4>
-							<ol>
-								<li><a href="#">Blah</a></li>
-								<li><a href="#">Blah</a></li>
-								
-							</ol>
+
+                    <div class="item-price">
+                        
+
+						<div class="product-price">
+							<h3 class="rate">Job offers</h3>
+							<div class="clearfix"></div>
 						</div>
+						<div class="condition">
+							<p class="p-price">A. Kapinga, Gauteng Edenvale</p>
+							<h4><a href="#">Confirm</a></h4>
+							<div class="clearfix"></div>
+						</div>
+                        <div class="condition">
+							<p class="p-price">J. Makou, Gauteng Dunvegan</p>
+							<h4><a href="#">Confirm</a></h4>
+							<div class="clearfix"></div>
+						</div>
+						
+					</div>
+
+						<!--<div class="tips">
+						<h3>Job offer</h3>
+							<ul>
+								<li><a href="#">A. Kapinga, Gauteng Edenvale</a></li>
+								<li><a href="#">J. Makou, Gauteng Dunvegan</a></li>
+								
+							</ul>
+						</div>-->
 				</div>
 			<div class="clearfix"></div>
 			</div>

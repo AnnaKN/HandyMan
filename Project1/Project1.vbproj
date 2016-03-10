@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Air.aspx" />
+    <Content Include="ClientProfile.aspx" />
     <Content Include="Electrician.aspx" />
     <Content Include="Faq.aspx" />
     <Content Include="Feedback.aspx" />
@@ -104,6 +105,7 @@
     <Content Include="images\g2.jpg" />
     <Content Include="images\g3.jpg" />
     <Content Include="images\g4.jpg" />
+    <Content Include="images\icon.png" />
     <Content Include="images\pc1.jpg" />
     <Content Include="images\pc2.jpg" />
     <Content Include="images\pc3.jpg" />
@@ -368,6 +370,13 @@
     </Compile>
     <Compile Include="Air.aspx.vb">
       <DependentUpon>Air.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ClientProfile.aspx.designer.vb">
+      <DependentUpon>ClientProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientProfile.aspx.vb">
+      <DependentUpon>ClientProfile.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Electrician.aspx.designer.vb">
