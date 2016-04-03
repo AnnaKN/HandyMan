@@ -18,6 +18,24 @@
                         </label>
 						&nbsp;<input type="text" class="name" placeholder="">
 						<div class="clearfix"></div>
+                        <label>
+                        <div class="text-left">
+                            Your Surname <span>*</span></div>
+                        </label>
+						&nbsp;<input type="text" class="name" placeholder="">
+						<div class="clearfix"></div>
+                        <label>
+                        <div class="text-left">
+                            Your Username <span>*</span></div>
+                        </label>
+						&nbsp;<input type="text" class="name" placeholder="">
+						<div class="clearfix"></div>
+                        <label>
+                        <div class="text-left">
+                            Your Password <span>*</span></div>
+                        </label>
+						&nbsp;<input type="text" class="name" placeholder="">
+						<div class="clearfix"></div>
 						<label>
                         <div class="text-left">
                             Your Mobile No <span>*</span></div>
@@ -56,6 +74,22 @@
 					  <option>Tilling Specialist</option>
 					  <option>Roof Specialist</option>
 					</select>
+
+					<div class="clearfix"></div>
+
+                    <label>
+                    <div class="text-left">
+                        Select Region <span>*</span></div>
+                    </label>&nbsp;<select class="">
+                        <option>Select Region</option>
+					 <option>Edenvale</option>
+					  <option>Dunvegan </option>
+					  <option>Dowerglen</option>
+					  <option>Marais Steyn Park</option>
+					  <option>Croydon</option>
+					  <option>Isando</option>
+					</select>
+
 					<div class="clearfix"></div>
 					<label>
                     <div class="text-left">
@@ -90,10 +124,10 @@
 
 						</form>
 
-						<div id="messages">
+						
 
-                            <a href="WorkerProfile.aspx"><input type="button" value="Post"/></a>	
-						</div>
+                            <a href="WorkerProfile.aspx"><input type="button" value="Register"/></a>	
+						
 						</div>
 					<div class="clearfix"></div>
 						<script src="js/filedrag.js"></script>

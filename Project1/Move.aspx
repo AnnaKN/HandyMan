@@ -1,20 +1,19 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="Move.aspx.vb" Inherits="Project1.Move" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="MoveStorage.aspx.vb" Inherits="Project1.MoveStorage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyBody" runat="server">
-
-    <div class="trending-ads">
+     <div class="trending-ads">
 				<div class="container">
 				<!-- slider -->
 
                      
 				<div class="trend-ads">
-					<h3>Move, Removal & Storage</h3><br>
+					<h3>Move,Remove Storage</h3><br/>
 							<ul id="flexiselDemo3">
 								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m1.jpg"/>
+											<img src="imagesPL/pl4.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Specialist</h5>
@@ -23,16 +22,16 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m2.jpg"/>
+											<img src="imagesPL/Pl3.png"/>
 										</a> 
 										<div class="ad-info">
-											<h5>Specialist</h5>
+											<h5></h5>
 											<span>Marais Steyn Park, Edenvale</span>
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m3.jpg"/>
+											<img src="imagesPL/Pl1.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -42,7 +41,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m4.jpg"/>
+											<img src="imagesPL/p2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -55,7 +54,7 @@
                                 <li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m4.jpg"/>
+											<img src="imagesPL/Pl2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -65,17 +64,17 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m3.jpg"/>
+											<img src="imagesPL/p1.png"/>
 											
 										</a> 
 										<div class="ad-info">
-											<h5>Specialist</h5>
+											<h5></h5>
 											<span>Marais Steyn Park, Edenvale</span>
 										</div>
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m2.jpg"/>
+											<img src="imagesPL/p2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -85,7 +84,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/m1.jpg"/>
+											<img src="imagesPL/pl4.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -133,15 +132,15 @@
                             Some projects do require permits and the use of a licensed electrician by law, 
                             but most projects including changing wall outlets, light fixtures, and switches can be done safely by any homeowner. 
                             Every project (and house) is a bit different so it is always best to understand your own system, the basics of how the system should work, 
-                            and gauge your comfort level with tackling different projects from there.</p><br>
-
-                    <a href="index.aspx">Go back</a><br>
-                            <a href="PostAdClient.aspx">Post Ad</a>
+                            and gauge your comfort level with tackling different projects from there.</p>
 					</div>
                     
-                       
+                     <div class="modal-header" >
+                         <a href="index.aspx">Go back</a>
+                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>
+                         <a href="FeaturedWorkers.aspx#parentVerticalTab11">Featured Workers</a>
+                    </div>   
 			</div>
-			<!-- //slider -->				
-			</div><br><br>
-
+			<!-- //slider -->	
+     </div>
 </asp:Content>

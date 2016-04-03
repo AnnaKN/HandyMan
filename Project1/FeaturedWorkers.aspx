@@ -106,10 +106,233 @@
 					<div class="resp-tabs-container hor_1">
 						<span class="active total" style="display:block;" data-toggle="modal" data-target="#myModal"><strong>All Areas</strong> (Select your area to see local workers)</span>
 						
+<%--Electricians--%>
+                        <div>
+                        
+					<div class="wrapper">					
+					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					  
+					  <div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+						   <div>
+												<div id="container">
+								<div class="view-controls-list" id="viewcontrols">
+									<label>view :</label>
+									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
+									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
+								</div>
+								<div class="sort">
+								   <div class="sort-by">
+										<label>Sort By : </label>
+										<select>
+														<option value="">Most Rated</option>
+														<option value="">Rate:  Low to High</option>
+														<option value="">Rate:  High to Low</option>
+										</select>
+									   </div>
+									 </div>
+								<div class="clearfix"></div>
+							<ul class="list">
+								
+								
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Electrician</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p2.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Electrician</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p3.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Electrician</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p4.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Electrician</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Electrician</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+							</ul>
+						</div>
+							</div>
+						</div>
+						
+						
+						<ul class="pagination pagination-sm">
+							<li><a href="#">Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">Next</a></li>
+						</ul>
+					  </div>
+					</div>
+				</div>
+				</div>
 
+<%--Paint and deco--%>
+
+                <div>
+                        
+					<div class="wrapper">					
+					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					  
+					  <div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+						   <div>
+												<div id="container">
+								<div class="view-controls-list" id="viewcontrols">
+									<label>view :</label>
+									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
+									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
+								</div>
+								<div class="sort">
+								   <div class="sort-by">
+										<label>Sort By : </label>
+										<select>
+														<option value="">Most Rated</option>
+														<option value="">Rate:  Low to High</option>
+														<option value="">Rate:  High to Low</option>
+										</select>
+									   </div>
+									 </div>
+								<div class="clearfix"></div>
+							<ul class="list">
+								
+								
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Decorator</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p2.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Decorator</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p3.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Painter</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p4.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Decorator</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Painter</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+							</ul>
+						</div>
+							</div>
+						</div>
+						
+						
+						<ul class="pagination pagination-sm">
+							<li><a href="#">Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">Next</a></li>
+						</ul>
+					  </div>
+					</div>
+				</div>
+				</div>
+						
+<%--Pool specialist--%>
 
                         <div>
-                        <div class="ads-display col-md-9">
+                        
 					<div class="wrapper">					
 					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					  
@@ -136,11 +359,11 @@
 							<ul class="list">
 								
 								
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p1.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Pool Specialist</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -149,11 +372,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p2.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Pool Specialist</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -162,11 +385,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p3.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Pool Specialist</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -175,11 +398,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p4.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Pool Specialist</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -188,11 +411,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p1.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Pool Specialist</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -200,72 +423,6 @@
 									</section>
 									<div class="clearfix"></div>
 									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p2.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Bedforview</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p3.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Greenstone</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p4.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Isando</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p1.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p3.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Kempton Park</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								<div class="clearfix"></div>
 								</a>
 							</ul>
 						</div>
@@ -283,17 +440,11 @@
 					</div>
 				</div>
 				</div>
-                            </div>
-		
 
+<%--garden and landscaping--%>
 
-
-
-
-
-
-						<div>
-							<div class="ads-display col-md-9">
+                        <div>
+                        
 					<div class="wrapper">					
 					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					  
@@ -320,11 +471,11 @@
 							<ul class="list">
 								
 								
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p1.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Gardener</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -333,11 +484,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p2.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Gardener</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -346,11 +497,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p3.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Gardener</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -359,11 +510,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p4.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Gardener</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -372,11 +523,11 @@
 									<div class="clearfix"></div>
 									</li> 
 								</a>
-								<a href="single.html">
+								<a href="WorkerProfile.aspx">
 									<li>
 									<img src="images/p1.png" title="" alt="" />
 									<section class="list-left">
-									<h5 class="title">Electrician</h5>
+									<h5 class="title">Gardener</h5>
 									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
 									<p class="catpath">Visit Profile</p>
 									</section>
@@ -384,72 +535,6 @@
 									</section>
 									<div class="clearfix"></div>
 									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p2.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Bedforview</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p3.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Greenstone</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p4.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Isando</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p1.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								</a>
-								<a href="single.html">
-									<li>
-									<img src="images/p3.png" title="" alt="" />
-									<section class="list-left">
-									<h5 class="title">Electrician</h5>
-									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Kempton Park</a></p></span>
-									<p class="catpath">Visit Profile</p>
-									</section>
-									<section class="list-right">
-									</section>
-									<div class="clearfix"></div>
-									</li> 
-								<div class="clearfix"></div>
 								</a>
 							</ul>
 						</div>
@@ -467,242 +552,241 @@
 					</div>
 				</div>
 				</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat3.png" title="image" alt="" />
+
+<%--Security, fire and Safety--%>
+
+                        
+                        <div>
+                        
+					<div class="wrapper">					
+					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					  
+					  <div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+						   <div>
+												<div id="container">
+								<div class="view-controls-list" id="viewcontrols">
+									<label>view :</label>
+									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
+									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
 								</div>
-								<div class="category-info">
-									<h4>Cars</h4>
-									<span>1,98,080 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
+								<div class="sort">
+								   <div class="sort-by">
+										<label>Sort By : </label>
+										<select>
+														<option value="">Most Rated</option>
+														<option value="">Rate:  Low to High</option>
+														<option value="">Rate:  High to Low</option>
+										</select>
+									   </div>
+									 </div>
 								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="cars.html">Commercial Vehicles</a></li>
-									<li><a href="cars.html">Other Vehicles</a></li>
-									<li><a href="cars.html">Spare Parts</a></li>
+							<ul class="list">
+								
+								
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">ChildProofing Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
 									<div class="clearfix"></div>
-								</ul>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p2.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Security System Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p3.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Alarm Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p4.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">ChildProofing Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Alarm Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+							</ul>
+						</div>
 							</div>
 						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat4.png" title="image" alt="" />
+						
+						
+						<ul class="pagination pagination-sm">
+							<li><a href="#">Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">Next</a></li>
+						</ul>
+					  </div>
+					</div>
+				</div>
+				</div>
+
+<%--Kitchen Specialist --%>               
+						
+						
+                        <div>
+                        
+					<div class="wrapper">					
+					<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					  
+					  <div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+						   <div>
+												<div id="container">
+								<div class="view-controls-list" id="viewcontrols">
+									<label>view :</label>
+									<a class="gridview"><i class="glyphicon glyphicon-th"></i></a>
+									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
 								</div>
-								<div class="category-info">
-									<h4>Bikes</h4>
-									<span>6,17,568 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
+								<div class="sort">
+								   <div class="sort-by">
+										<label>Sort By : </label>
+										<select>
+														<option value="">Most Rated</option>
+														<option value="">Rate:  Low to High</option>
+														<option value="">Rate:  High to Low</option>
+										</select>
+									   </div>
+									 </div>
 								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="bikes.html">Motorcycles</a></li>
-									<li><a href="bikes.html">Scooters</a></li>
-									<li><a href="bikes.html">Bicycles</a></li>
-									<li><a href="bikes.html">Spare Parts</a></li>
+							<ul class="list">
+								
+								
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Kitchen Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
 									<div class="clearfix"></div>
-								</ul>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p2.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Kitchen Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p3.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Kitchen Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Eastleigh</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p4.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Kitchen Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Randburg</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+								<a href="WorkerProfile.aspx">
+									<li>
+									<img src="images/p1.png" title="" alt="" />
+									<section class="list-left">
+									<h5 class="title">Kitchen Specialist</h5>
+									<span class="adprice"><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dowerglen</a></p></span>
+									<p class="catpath">Visit Profile</p>
+									</section>
+									<section class="list-right">
+									</section>
+									<div class="clearfix"></div>
+									</li> 
+								</a>
+							</ul>
+						</div>
 							</div>
 						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat5.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Furniture</h4>
-									<span>1,05,168 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="furnitures.html">Sofa & Dining</a></li>
-									<li><a href="furnitures.html">Beds & Wardrobes</a></li>
-									<li><a href="furnitures.html">Home Decor & Garden</a></li>
-									<li><a href="furnitures.html">Other Household Items</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat6.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Pets</h4>
-									<span>1,77,816 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="pets.html">Dogs</a></li>
-									<li><a href="pets.html">Aquariums</a></li>
-									<li><a href="pets.html">Pet Food & Accessories</a></li>
-									<li><a href="pets.html">Other Pets</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat7.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Books, Sports & Hobbies</h4>
-									<span>9,58,458 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="books-sports-hobbies.html">Books & Magazines</a></li>
-									<li><a href="books-sports-hobbies.html">Musical Instruments</a></li>
-									<li><a href="books-sports-hobbies.html">Sports Equipment</a></li>
-									<li><a href="books-sports-hobbies.html">Gym & Fitness</a></li>
-									<li><a href="books-sports-hobbies.html">Other Hobbies</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat8.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Fashion</h4>
-									<span>3,52,345 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="fashion.html">Clothes</a></li>
-									<li><a href="fashion.html">Footwear</a></li>
-									<li><a href="fashion.html">Accessories</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat9.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Kids</h4>
-									<span>8,45,298 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="kids.html">Furniture And Toys</a></li>
-									<li><a href="kids.html">Prams & Walkers</a></li>
-									<li><a href="kids.html">Accessories</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat10.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Services</h4>
-									<span>7,58,867 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="services.html">Education & Classes</a></li>
-									<li><a href="services.html">Web Development</a></li>
-									<li><a href="services.html">Electronics & Computer Repair</a></li>
-									<li><a href="services.html">Maids & Domestic Help</a></li>
-									<li><a href="services.html">Health & Beauty</a></li>
-									<li><a href="services.html">Movers & Packers</a></li>
-									<li><a href="services.html">Drivers & Taxi</a></li>
-									<li><a href="services.html">Event Services</a></li>
-									<li><a href="services.html">Other Services</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat11.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Jobs</h4>
-									<span>5,74,547 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="jobs.html">Customer Service</a></li>
-									<li><a href="jobs.html">IT</a></li>
-									<li><a href="jobs.html">Online</a></li>
-									<li><a href="jobs.html">Marketing</a></li>
-									<li><a href="jobs.html">Advertising & PR</a></li>
-									<li><a href="jobs.html">Sales</a></li>
-									<li><a href="jobs.html">Clerical & Administration</a></li>
-									<li><a href="jobs.html">Human Resources</a></li>
-									<li><a href="jobs.html">Education</a></li>
-									<li><a href="jobs.html">Hotels & Tourism</a></li>
-									<li><a href="jobs.html">Accounting & Finance</a></li>
-									<li><a href="jobs.html">Manufacturing</a></li>
-									<li><a href="jobs.html">Part - Time</a></li>
-									<li><a href="jobs.html">Other Jobs</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="category">
-								<div class="category-img">
-									<img src="images/cat12.png" title="image" alt="" />
-								</div>
-								<div class="category-info">
-									<h4>Real Estate</h4>
-									<span>98,156 Ads</span>
-									<a href="all-classifieds.html">View all Ads</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="sub-categories">
-								<ul>
-									<li><a href="real-estate.html">Houses</a></li>
-									<li><a href="real-estate.html">Apartments</a></li>
-									<li><a href="real-estate.html">PG & Roommates</a></li>
-									<li><a href="real-estate.html">Land & Plots</a></li>
-									<li><a href="real-estate.html">Shops - Offices - Commercial Space</a></li>
-									<li><a href="real-estate.html">Vacation Rentals - Guest Houses</a></li>
-									<div class="clearfix"></div>
-								</ul>
-							</div>
-						</div>
+						
+						
+						<ul class="pagination pagination-sm">
+							<li><a href="#">Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">Next</a></li>
+						</ul>
+					  </div>
+					</div>
+				</div>
+				</div>
+						
+						
+						
+						
+						
+						
+						
+							
+						
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -732,4 +816,6 @@
 </script>
 	<!-- //Categories -->
 
+    </div>
+    </div>
 </asp:Content>

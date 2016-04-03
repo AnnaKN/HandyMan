@@ -12,7 +12,7 @@
 			</ol>
 			<div class="product-desc">
 				<div class="col-md-7 product-view">
-                    <h1>Tiling Specialist</h1>
+                    <h1>Electrician</h1>
 					<h4>Previous work done</h4>
 					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p>
 					<div class="flexslider">
@@ -50,6 +50,36 @@
 						<p><strong>Address</strong> : 1 First avenue,  this place, Gauteng</p>
                         <a href="RegisterClient.aspx">Update your profile</a>
 					</div>
+
+                    <div class="product-price">
+							<h3 class="rate">History</h3>
+
+						</div>
+                    <div class="happy-clients-grids">
+
+                        <div class="col-md-6 happy-clients-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="client">
+								<img src="images/client_1.jpg" alt="" />
+							</div>
+							<div class="client-info">
+								<p>Great worker, would use im again anytime</p>
+								<h4><a href="#">Mrs Michle, </a><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p></h4>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+                        <div class="col-md-6 happy-clients-grid span_66 wow bounceIn" data-wow-delay="0.4s">
+							<div class="client">
+								<img src="images/client_2.jpg" alt="" />
+							</div>
+							<div class="client-info">
+								<p>Great worker, would use him again anytime</p>
+								<h4><a href="#">Miss Elisabath, </a><p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Dunvegan</a></p></h4>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+                    </div>
+
 				</div>
 				<div class="col-md-5 product-details-grid">
 					<div class="item-price">
@@ -70,8 +100,8 @@
 						</div>
 					</div>
 					<div class="interested text-center">
-						<h4>Interested?<br><small> Contact the Seller!</small></h4>
-						<p><i class="fa fa-check-square"></i>Book</p>
+						<h4>Interested?<br/><small> Contact the Seller!</small></h4>
+						<p><i class="fa fa-check-square"></i>Book</p><div class="clearfix"></div>
 					</div>
 
                     <div class="item-price">
@@ -82,13 +112,13 @@
 							<div class="clearfix"></div>
 						</div>
 						<div class="condition">
-							<p class="p-price">A. Kapinga, Gauteng Edenvale</p>
-							<h4><a href="#">Confirm</a></h4>
+							<h5 class="p-price">A. Kapinga, Gauteng Edenvale</h5>
+							<h5><a href="#">Confirm</a></h5>
 							<div class="clearfix"></div>
 						</div>
                         <div class="condition">
-							<p class="p-price">J. Makou, Gauteng Dunvegan</p>
-							<h4><a href="#">Confirm</a></h4>
+							<h5 class="p-price">J. Makou, Gauteng Dunvegan</h5>
+							<h5><a href="#">Confirm</a></h5>
 							<div class="clearfix"></div>
 						</div>
 						

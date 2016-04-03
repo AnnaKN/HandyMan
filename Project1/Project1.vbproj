@@ -58,7 +58,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="uploads\" />
   </ItemGroup>
   <ItemGroup>
@@ -85,11 +84,17 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Air.aspx" />
+    <Content Include="AirConditioning.aspx" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
     <Content Include="ClientProfile.aspx" />
     <Content Include="Electrician.aspx" />
     <Content Include="Faq.aspx" />
+    <Content Include="FeaturedWorkers.aspx" />
     <Content Include="Feedback.aspx" />
+    <Content Include="GardenLandscaping.aspx" />
     <Content Include="GeyserSpecialist.aspx" />
     <Content Include="HowItWorks.aspx" />
     <Content Include="images\a1.jpg" />
@@ -114,9 +119,13 @@
     <Content Include="images\t2.jpg" />
     <Content Include="images\t3.jpg" />
     <Content Include="images\t4.jpg" />
-    <Content Include="Login.aspx" />
+    <Content Include="Kitchen.aspx" />
+    <Content Include="LoginClient.aspx" />
+    <Content Include="LoginWorker.aspx" />
     <Content Include="Move.aspx" />
+    <Content Include="PaintDecoration.aspx" />
     <Content Include="PestControl.aspx" />
+    <Content Include="PoolSpecialist.aspx" />
     <Content Include="PostAdClient.aspx" />
     <Content Include="RegisterWorker.aspx" />
     <Content Include="ClientOrWorker.aspx" />
@@ -360,16 +369,17 @@
     <Content Include="js\tabs.js" />
     <Content Include="RegisterClient.aspx" />
     <Content Include="RoofSpecialist.aspx" />
+    <Content Include="SecuritySafety.aspx" />
     <Content Include="Tilling.aspx" />
     <Content Include="Web.config" />
     <Content Include="WorkerProfile.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Air.aspx.designer.vb">
-      <DependentUpon>Air.aspx</DependentUpon>
+    <Compile Include="AirConditioning.aspx.designer.vb">
+      <DependentUpon>AirConditioning.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Air.aspx.vb">
-      <DependentUpon>Air.aspx</DependentUpon>
+    <Compile Include="AirConditioning.aspx.vb">
+      <DependentUpon>AirConditioning.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ClientProfile.aspx.designer.vb">
@@ -393,12 +403,26 @@
       <DependentUpon>Faq.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="FeaturedWorkers.aspx.designer.vb">
+      <DependentUpon>FeaturedWorkers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturedWorkers.aspx.vb">
+      <DependentUpon>FeaturedWorkers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Feedback.aspx.designer.vb">
       <DependentUpon>Feedback.aspx</DependentUpon>
     </Compile>
     <Compile Include="Feedback.aspx.vb">
       <DependentUpon>Feedback.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GardenLandscaping.aspx.designer.vb">
+      <DependentUpon>GardenLandscaping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GardenLandscaping.aspx.vb">
+      <DependentUpon>GardenLandscaping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="GeyserSpecialist.aspx.designer.vb">
       <DependentUpon>GeyserSpecialist.aspx</DependentUpon>
@@ -414,11 +438,25 @@
       <DependentUpon>HowItWorks.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Kitchen.aspx.designer.vb">
+      <DependentUpon>Kitchen.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Kitchen.aspx.vb">
+      <DependentUpon>Kitchen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginClient.aspx.designer.vb">
+      <DependentUpon>LoginClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginClient.aspx.vb">
+      <DependentUpon>LoginClient.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LoginWorker.aspx.designer.vb">
+      <DependentUpon>LoginWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWorker.aspx.vb">
+      <DependentUpon>LoginWorker.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Move.aspx.designer.vb">
@@ -428,12 +466,26 @@
       <DependentUpon>Move.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="PaintDecoration.aspx.designer.vb">
+      <DependentUpon>PaintDecoration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaintDecoration.aspx.vb">
+      <DependentUpon>PaintDecoration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="PestControl.aspx.designer.vb">
       <DependentUpon>PestControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="PestControl.aspx.vb">
       <DependentUpon>PestControl.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PoolSpecialist.aspx.designer.vb">
+      <DependentUpon>PoolSpecialist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PoolSpecialist.aspx.vb">
+      <DependentUpon>PoolSpecialist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PostAdClient.aspx.designer.vb">
       <DependentUpon>PostAdClient.aspx</DependentUpon>
@@ -495,6 +547,13 @@
     <Compile Include="RoofSpecialist.aspx.vb">
       <DependentUpon>RoofSpecialist.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SecuritySafety.aspx.designer.vb">
+      <DependentUpon>SecuritySafety.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecuritySafety.aspx.vb">
+      <DependentUpon>SecuritySafety.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>

@@ -9,6 +9,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background:#fff;
 }
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -34,6 +35,7 @@ h1,h2,h3,h4,h5,h6{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+    text-align: left;
 }	
 p{
 	margin:0;
@@ -2254,7 +2256,7 @@ h3.rate {
     padding: 20px 0;
 }
 .interested {
-    margin: 20px;
+    margin: initial
     padding: 40px 20px;
     background: rgba(1, 161, 133, 0.36);
     margin-left: 15%;
@@ -3069,7 +3071,6 @@ ul.privacy-start {
     font-weight: 400;
     float: left;
     width: 16%;
-    text-align: right;
     margin-right: 4%;
 }
 .post-ad-form form label span {
@@ -3077,7 +3078,6 @@ ul.privacy-start {
 }
 .post-ad-form input[type="text"] {
     padding: 10px 10px 10px 10px;
-    width: 70%;
     margin-bottom: 25px;
     border: 1px solid #01a185;
     outline: none;
@@ -3090,11 +3090,9 @@ ul.privacy-start {
 	float: left;
 }
 .post-ad-form textarea {
-    height: 180px;
     outline: none;
     resize: none;
 	padding: 10px 10px 10px 10px;
-    width: 70%;
     margin-bottom: 25px;
     border: 1px solid #01a185;
     outline: none;
@@ -3136,10 +3134,12 @@ ul.privacy-start {
 }
 
 .post-ad-form input[type="button"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     background: #f3c500;
     color: white;
     -webkit-appearance: none;
-    border: none;
     text-transform: uppercase;
     position: relative;
     padding: 10px 50px;
@@ -3153,6 +3153,10 @@ ul.privacy-start {
     transition: all 333ms ease-in-out;
     margin-top: 20px;
 	float: right;
+    top: 0px;
+    left: 0px;
+    width: 249px;
+    height: 50px;
 }
 
 legend

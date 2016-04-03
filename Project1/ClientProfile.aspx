@@ -15,7 +15,7 @@
 					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p>
 					
 					<!-- FlexSlider -->
-					  <script defer src="js/jquery.flexslider.js"></script>
+					  <script src="js/jquery.flexslider.js"></script>
 					<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
 						<script>
@@ -39,7 +39,7 @@
 				<div class="col-md-5 product-details-grid">
 					<div class="item-price">
 
-						<div class="itemtype">
+						<div class="condition">
 							<p class="p-price">Rating</p>
 							<h4><i><img src="images/rate1.png" alt=" " /></i></h4>
 							<div class="clearfix"></div>

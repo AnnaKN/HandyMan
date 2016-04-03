@@ -82,7 +82,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><span>HandyMan</span> 2.0</a>
+				<a href="index.html"><span>HandyMan</span> 2.0</a><br>
+                <label id="userLogged" runat="server"  style="margin-left:700px;"></label>
 			</div>
 			<div class="header-right">
 			<a class="account" href="Login.html">My Account</a>

@@ -13,11 +13,12 @@
                      
 				<div class="trend-ads">
 					<h3>Electrical Work</h3><br>
+                    <br/><br/>
 							<ul id="flexiselDemo3">
 								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec1.jpg"/>
+											<img src="imagesE/elec1.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Specialist</h5>
@@ -26,7 +27,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec4.jpg"/>
+											<img src="imagesE/elec4.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Electrician</h5>
@@ -35,7 +36,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec2.jpg"/>
+											<img src="imagesE/elec2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -45,7 +46,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec4.jpg"/>
+											<img src="imagesE/elec3.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -58,7 +59,7 @@
                                 <li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec4.jpg"/>
+											<img src="imagesE/elec5.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -68,7 +69,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec1.jpg"/>
+											<img src="imagesE/elec3.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -138,7 +139,11 @@
                             Every project (and house) is a bit different so it is always best to understand your own system, the basics of how the system should work, 
                             and gauge your comfort level with tackling different projects from there.</p>
 					</div>
-                    
+                   <div class="modal-header" >
+                         <a href="index.aspx">Go back</a>
+                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>&nbsp;&nbsp;&nbsp;
+                       <a href="FeaturedWorkers.aspx">Featured Workers</a>
+                    </div>  
                        
 			</div>
 			<!-- //slider -->				
