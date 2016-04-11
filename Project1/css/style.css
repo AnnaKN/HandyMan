@@ -3676,6 +3676,11 @@ label {
 		width: 25%;
 		float: left;
 	}
+    	.focus-grid1 {
+		width: 25%;
+		float: left;
+        align-content:center;
+	}
 	.col-md-3.biseller-column{
 		width:33.333%;
 		float:left;

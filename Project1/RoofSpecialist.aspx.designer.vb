@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Roof
+Partial Public Class RoofSpecialist
 End Class

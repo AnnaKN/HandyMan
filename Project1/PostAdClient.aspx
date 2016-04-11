@@ -8,7 +8,7 @@
 		<div class="container">
 			<h2 class="head">Post an Ad</h2>
 			<div class="post-ad-form">
-				<form>
+				<form runat="server">
 					<label>
                     <div class="text-left">
                         Select Category <span>*</span></div>
@@ -60,12 +60,13 @@
 							</div>
 
                             <p class="post-terms">By clicking <strong>post Button</strong> you accept our <a href="terms.html" target="_blank">Terms of Use </a> and <a href="privacy.html" target="_blank">Privacy Policy</a></p>
-					<input type="submit" value="Post">					
+						
+                            <a href="Post.aspx"><asp:Button ID="btnR"  PostBackUrl="~/Post.aspx"  type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Submit" BackColor="#FBCC33" /></a>				
 					<div class="clearfix"></div>
 
 						</form>
 
-					
+					</form>
 						</div>
 					<div class="clearfix"></div>
 						<script src="js/filedrag.js"></script>

@@ -13,7 +13,7 @@
 								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k4.png"/>
+											<img src="images/imagesK/k4.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Specialist</h5>
@@ -22,7 +22,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k2.png"/>
+											<img src="images/imagesK/k2.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5></h5>
@@ -31,7 +31,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k4.png"/>
+											<img src="images/imagesK/k4.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -41,7 +41,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k5.jpg"/>
+											<img src="images/imagesK/k5.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -54,7 +54,7 @@
                                 <li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k4.png"/>
+											<img src="images/imagesK/k4.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -64,7 +64,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k3.png"/>
+											<img src="images/imagesK/k3.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -74,7 +74,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k2.png"/>
+											<img src="images/imagesK/k2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -84,7 +84,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesK/k6.png"/>
+											<img src="images/imagesK/k6.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -133,7 +133,7 @@
 					</div>
                     <div class="modal-header" >
                          <a href="index.aspx">Go back</a>
-                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>
+                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>&nbsp;&nbsp;&nbsp;
                         <a href="FeaturedWorkers.aspx#parentVerticalTab6">Featured Workers</a>
                     </div> 
                        

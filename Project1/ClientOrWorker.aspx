@@ -7,7 +7,7 @@
     <div class="content">
 			<div class="category"style="align-content:center; ">
 				<div class="container" style="align-content:center;">
-					<div class="col-md-2 focus-grid" style="align-content:center;">
+					<div class="col-md-2 focus-grid1" style="align-content:center;">
 						<a href="LoginClient.aspx">
 							<div class="focus-border" style="align-content:center;">
 								<div class="focus-layout">

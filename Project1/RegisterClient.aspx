@@ -108,7 +108,7 @@
                     <td style="width: 300px; height: 50px;">
                         <asp:Label ID="lblEmail" runat="server" Text="Your Email"></asp:Label></td>
                     <td style="height: 50px">
-                        <asp:TextBox ID="txtEmail" TextMode="Password" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
 
                     </td>
                 </tr>
@@ -123,7 +123,7 @@
             </table>
 
                 
-                <a href="ClientProfile.aspx"><asp:Button ID="btnRegister"  type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Register" BackColor="#FBCC33" /></a>
+                <a href="ClientProfile.aspx"><asp:Button ID="btnRegister" PostBackUrl="~/ClientProfile.aspx" type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Register" BackColor="#FBCC33" /></a>
 
 
 

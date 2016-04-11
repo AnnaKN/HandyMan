@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="Roof.aspx.vb" Inherits="Project1.Roof" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="RoofSpecialist.aspx.vb" Inherits="Project1.RoofSpecialist" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyBody" runat="server">
@@ -13,7 +13,7 @@
 								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o1.jpg"/>
+											<img src="images/imageA/o1.jpg"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Specialist</h5>
@@ -22,7 +22,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o2.jpg"/>
+											<img src="images/imageA/o2.jpg"/>
 										</a> 
 										<div class="ad-info">
 											<h5></h5>
@@ -31,7 +31,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o3.jpg"/>
+											<img src="images/imageA/o3.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -41,7 +41,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o4.jpg"/>
+											<img src="images/imageA/o4.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -54,7 +54,7 @@
                                 <li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o5.jpg"/>
+											<img src="images/imageA/o5.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -64,7 +64,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o6.jpg"/>
+											<img src="images/imageA/o6.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -74,7 +74,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o7.jpg"/>
+											<img src="images/imageA/o7.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -84,7 +84,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imageA/o8.jpg"/>
+											<img src="images/imageA/o8.jpg"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -136,7 +136,7 @@
 					</div>
                      <div class="modal-header" >
                          <a href="index.aspx">Go back</a>
-                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>
+                        <a style="text-align:end;margin-left:20px" href="ClientOrWorker.aspx">Return-to-login-page</a>&nbsp;&nbsp;&nbsp;
                          <a href="FeaturedWorkers.aspx#parentVerticalTab10">Featured Workers</a>
                     </div>
                        

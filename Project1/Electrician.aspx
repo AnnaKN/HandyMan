@@ -18,7 +18,7 @@
 								<li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec1.png"/>
+											<img src="images/imagesE/elec1.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Specialist</h5>
@@ -27,7 +27,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec4.png"/>
+											<img src="images/imagesE/elec4.png"/>
 										</a> 
 										<div class="ad-info">
 											<h5>Electrician</h5>
@@ -36,7 +36,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec2.png"/>
+											<img src="images/imagesE/elec2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -46,7 +46,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec3.png"/>
+											<img src="images/imagesE/elec3.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -59,7 +59,7 @@
                                 <li>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec5.png"/>
+											<img src="images/imagesE/elec5.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -69,7 +69,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="imagesE/elec3.png"/>
+											<img src="images/imagesE/elec3.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -79,7 +79,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec2.jpg"/>
+											<img src="images/imagesE/elec2.png"/>
 											
 										</a> 
 										<div class="ad-info">
@@ -89,7 +89,7 @@
 									</div>
 									<div class="col-md-3 biseller-column">
 										<a href="#">
-											<img src="images/elec4.jpg"/>
+											<img src="images/imagesE/elec4.png"/>
 											
 										</a> 
 										<div class="ad-info">

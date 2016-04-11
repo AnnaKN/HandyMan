@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Geyser
+Partial Public Class GeyserSpecialist
 End Class

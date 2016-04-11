@@ -111,6 +111,95 @@
     <Content Include="images\g3.jpg" />
     <Content Include="images\g4.jpg" />
     <Content Include="images\icon.png" />
+    <Content Include="images\imageA\o1.jpg" />
+    <Content Include="images\imageA\o2.jpg" />
+    <Content Include="images\imageA\o3.jpg" />
+    <Content Include="images\imageA\o4.jpg" />
+    <Content Include="images\imageA\o5.jpg" />
+    <Content Include="images\imageA\o6.jpg" />
+    <Content Include="images\imageA\o7.jpg" />
+    <Content Include="images\imageA\o8.jpg" />
+    <Content Include="images\imageA\o9.jpg" />
+    <Content Include="images\imageR\r1.jpg" />
+    <Content Include="images\imageR\r2.jpg" />
+    <Content Include="images\imageR\r3.jpg" />
+    <Content Include="images\imageR\r4.jpg" />
+    <Content Include="images\imageR\r5.jpg" />
+    <Content Include="images\imageR\r6.jpg" />
+    <Content Include="images\imageR\r7.jpg" />
+    <Content Include="images\imagesD\D1.png" />
+    <Content Include="images\imagesD\D2.png" />
+    <Content Include="images\imagesD\D3.png" />
+    <Content Include="images\imagesD\D4.png" />
+    <Content Include="images\imagesD\D5.png" />
+    <Content Include="images\imagesD\D6.png" />
+    <Content Include="images\imagesD\imageH\s1.jpg" />
+    <Content Include="images\imagesD\imageH\s2.jpg" />
+    <Content Include="images\imagesD\imageH\s3.jpg" />
+    <Content Include="images\imagesD\imageH\s4.jpg" />
+    <Content Include="images\imagesD\imageH\s5.jpg" />
+    <Content Include="images\imagesE\elec1.png" />
+    <Content Include="images\imagesE\elec2.png" />
+    <Content Include="images\imagesE\elec3.png" />
+    <Content Include="images\imagesE\elec4.png" />
+    <Content Include="images\imagesE\elec5.png" />
+    <Content Include="images\imagesF\f1.png" />
+    <Content Include="images\imagesF\f2.png" />
+    <Content Include="images\imagesF\f3.png" />
+    <Content Include="images\imagesF\f4.png" />
+    <Content Include="images\imagesF\f5.jpg" />
+    <Content Include="images\imagesF\f6.png" />
+    <Content Include="images\imagesF\f7.jpg" />
+    <Content Include="images\ImagesG\f4.png" />
+    <Content Include="images\ImagesG\f5.png" />
+    <Content Include="images\ImagesG\f6.png" />
+    <Content Include="images\ImagesG\flower.png" />
+    <Content Include="images\ImagesG\flower1.png" />
+    <Content Include="images\ImagesG\g1.png" />
+    <Content Include="images\ImagesG\G10.png" />
+    <Content Include="images\ImagesG\G11.png" />
+    <Content Include="images\ImagesG\G12.png" />
+    <Content Include="images\ImagesG\G2.png" />
+    <Content Include="images\ImagesG\G3.png" />
+    <Content Include="images\ImagesG\G4.png" />
+    <Content Include="images\ImagesG\G5.png" />
+    <Content Include="images\ImagesG\G6.png" />
+    <Content Include="images\ImagesG\G7.png" />
+    <Content Include="images\ImagesG\G8.png" />
+    <Content Include="images\ImagesG\wisteria-tunnel-japan-amazing-place.jpg" />
+    <Content Include="images\imagesK\k1.jpg" />
+    <Content Include="images\imagesK\k2.png" />
+    <Content Include="images\imagesK\k3.png" />
+    <Content Include="images\imagesK\k4.png" />
+    <Content Include="images\imagesK\k5.jpg" />
+    <Content Include="images\imagesK\k6.png" />
+    <Content Include="images\imagesPL\p1.png" />
+    <Content Include="images\imagesPL\p2.png" />
+    <Content Include="images\imagesPL\Pl2.png" />
+    <Content Include="images\imagesPL\pl4.png" />
+    <Content Include="images\imagesPL\pl5.jpg" />
+    <Content Include="images\imagesPL\pl6.jpg" />
+    <Content Include="images\imagesPL\pl7.jpg" />
+    <Content Include="images\imagesPL\pl8.jpg" />
+    <Content Include="images\imagesPL\WP_000830.jpg" />
+    <Content Include="images\imagesP\P1.png" />
+    <Content Include="images\imagesP\P2.png" />
+    <Content Include="images\imagesP\P3.png" />
+    <Content Include="images\imagesP\P4.png" />
+    <Content Include="images\imageT\t1.jpg" />
+    <Content Include="images\imageT\t2.JPG" />
+    <Content Include="images\imageT\t3.jpg" />
+    <Content Include="images\imageT\t4.jpg" />
+    <Content Include="images\imageT\t5.jpg" />
+    <Content Include="images\imageT\t6.jpg" />
+    <Content Include="images\imageT\t7.jpg" />
+    <Content Include="images\ImageY\y1.jpg" />
+    <Content Include="images\ImageY\y2.jpg" />
+    <Content Include="images\ImageY\y3.jpg" />
+    <Content Include="images\ImageY\y5.jpg" />
+    <Content Include="images\ImageY\y6.jpg" />
+    <Content Include="images\ImageY\y7.jpg" />
+    <Content Include="images\ImageY\y8.jpg" />
     <Content Include="images\pc1.jpg" />
     <Content Include="images\pc2.jpg" />
     <Content Include="images\pc3.jpg" />
@@ -126,6 +215,7 @@
     <Content Include="PaintDecoration.aspx" />
     <Content Include="PestControl.aspx" />
     <Content Include="PoolSpecialist.aspx" />
+    <Content Include="Post.aspx" />
     <Content Include="PostAdClient.aspx" />
     <Content Include="RegisterWorker.aspx" />
     <Content Include="ClientOrWorker.aspx" />
@@ -486,6 +576,13 @@
     <Compile Include="PoolSpecialist.aspx.vb">
       <DependentUpon>PoolSpecialist.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Post.aspx.designer.vb">
+      <DependentUpon>Post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Post.aspx.vb">
+      <DependentUpon>Post.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PostAdClient.aspx.designer.vb">
       <DependentUpon>PostAdClient.aspx</DependentUpon>
