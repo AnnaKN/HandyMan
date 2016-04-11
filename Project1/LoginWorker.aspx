@@ -52,7 +52,7 @@
 			</div>
 		<!--footer section start-->
 			<footer class="diff">
-			   <p class="text-center">&copy © 2016 HandyMan 2.0. All Rights Reserved | Design by The Unknowns</p>
+			  
 			</footer>
         <!--footer section end-->
 	</section>
