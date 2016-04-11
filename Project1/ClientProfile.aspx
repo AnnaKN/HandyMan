@@ -29,10 +29,10 @@
 					</script>
 					<!-- //FlexSlider -->
 					<div class="product-details">
-						<h4>Name : <a href="#">Client Name</a></h4>
+						<h4>Name : <a href="#">anna</a></h4>
                         <h4>Contact Number : <strong>+27762162582</strong></h4>
-						<h4>Email : <strong>mail@worker.co.za</strong></h4>
-						<p><strong>Address</strong> : 5 Molesey Ave, Johannesburg, 2092 </p>
+						<h4>Email : <strong>anna.kapinga@gmail.com</strong></h4>
+						<p><strong>Address</strong> : 11, blah Ave, Johannesburg, 2092 </p>
                         <small><a href="RegisterClient.aspx">Update your profile</a></small>
 					</div>
 				</div>
@@ -46,9 +46,9 @@
 						</div>
 					</div>
 					<div class="interested text-center">
-						<h4>Interested?</h4>
+						<h4 style="text-align:center;">Interested?</h4>
 
-						<p><i class="fa fa-check-square"></i><a href="PostAdClient">Post an ad</a></p>
+						<p><i class="fa fa-check-square"></i><a href="PostAdClient.aspx">Post an ad</a></p>
 					</div>
 
 				</div>

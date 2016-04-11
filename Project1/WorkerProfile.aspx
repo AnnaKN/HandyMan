@@ -44,7 +44,7 @@
 					</script>
 					<!-- //FlexSlider -->
 					<div class="product-details">
-						<h4>Name : <a href="#">Client Name</a></h4>
+						<h4>Name : <a href="#">Jo M</a></h4>
                         <h4>Worker Contact Number : <strong>+27762162582</strong></h4>
 						<h4>Worker email : <strong>mail@worker.co.za</strong></h4>
 						<p><strong>Address</strong> : 1 First avenue,  this place, Gauteng</p>
@@ -100,8 +100,8 @@
 						</div>
 					</div>
 					<div class="interested text-center">
-						<h4>Interested?<br/><small> Contact the Seller!</small></h4>
-						<p><i class="fa fa-check-square"></i>Book</p><div class="clearfix"></div>
+						<h4 style="text-align:center;">Interested?<br/></h4>
+						<a href="Post.aspx"><p><i class="fa fa-check-square"></i>Check Post</p></a><div class="clearfix"></div>
 					</div>
 
                     <div class="item-price">
