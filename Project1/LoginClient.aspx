@@ -38,7 +38,7 @@
 								<div class="clearfix"> </div>
 							</div>
 							
-                                <a href="ClientProfile.aspx"><asp:Button ID="btnRegister"  type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Login" BackColor="#FBCC33" /></a>
+                                <a href="ClientProfile.aspx"><asp:Button ID="btnRegister"  PostBackUrl="~/ClientProfile.aspx"  type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Login" BackColor="#FBCC33" /></a>
 						</form>	 
 						</div>
 						<div class="new_people">
@@ -51,7 +51,7 @@
 			</div>
 		<!--footer section start-->
 			<footer class="diff">
-			   <p class="text-center">&copy © 2016 HandyMan 2.0. All Rights Reserved | Design by The Unknowns</p>
+			  
 			</footer>
         <!--footer section end-->
 	</section>
