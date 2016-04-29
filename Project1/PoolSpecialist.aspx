@@ -9,7 +9,7 @@
 
                      
 				<div class="trend-ads">
-					<h3>Pool Specialist</h3><br>
+					<h3>Pool Specialist</h3><br/>
 							<ul id="flexiselDemo3">
 								<li>
 									<div class="col-md-3 biseller-column">

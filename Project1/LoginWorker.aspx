@@ -14,7 +14,7 @@
 						<div class="signin">
 							<div class="signin-rit">
 								<span class="checkbox1">
-									 <label class="checkbox"><input type="checkbox" name="checkbox" checked="">Forgot Password ?</label>
+									 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""/>Forgot Password ?</label>
 								</span>
 								<p><a href="#">Click Here</a> </p>
 								<div class="clearfix"> </div>
@@ -22,29 +22,32 @@
 							<form runat="server">
 							<div class="log-input">
 								<div class="log-input-left">
-								   <input type="text" class="user" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}"/>
-								</div>
-								<span class="checkbox2">
-									 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i></label>
-								</span>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="log-input">
-								<div class="log-input-left">
-								   <input type="password" class="lock" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address:';}"/>
+								   <input type="text" class="user" id="txtUsername" runat="server" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Username';}"/>
 								</div>
 								<span class="checkbox2">
 									 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""/><i> </i></label>
 								</span>
 								<div class="clearfix"> </div>
 							</div>
+							<div class="log-input">
+								<div class="log-input-left">
+								   <input type="password" class="lock" id="txtPassword" runat="server" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"/>
+								</div>
+								<span class="checkbox2">
+									 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""/><i> </i></label>
+								</span>
+								<div class="clearfix"> </div>
+							</div>
+
+                                <input id="btnLog" runat="server" type="submit" value="Log in"/>
 							
-                                <a href="WorkerProfile.aspx"><asp:Button ID="btnRegister"  type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Login" BackColor="#FBCC33" /></a>
+                                
 						</form>	 
+                            <label id="lblLogin" style="align-content:center" runat="server" text=""></label>
 						</div>
 						<div class="new_people">
-							<h2>Are You a New User</h2>
-							<p>Join our awesome team and Register your business with</p>
+							<h2 style="align-content:center">Are You a New User</h2>
+							<p style="align-content:center">Join our awesome team and Register your business with</p>
 							<a href="RegisterWorker.aspx">Register Now!</a>
 						</div>
 					</div>

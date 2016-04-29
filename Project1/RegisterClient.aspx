@@ -11,7 +11,7 @@
 
                 <h3>Personal Details</h3><br/>
 
-                <table style="margin:initial" >
+                <table style="margin:initial">
                 <tr>
                     <td style="width: 300px; height: 30px;">
                         <asp:Label ID="lblName" runat="server" Text="Your Name"></asp:Label></td>
@@ -38,8 +38,9 @@
                         <asp:TextBox ID="txtPassword" TextMode="Password" runat="server"></asp:TextBox></td>
                 </tr>
                
-
+            
             </table>
+                <label id="lblCheck" runat="server"  style="margin-left:0px;"></label>
 
                 <%--<h3>Personal Details</h3><br/>
 					<form runat="server">
@@ -75,7 +76,7 @@
 								
 					<div class="clearfix"></div>--%>
 					
-					</div><br/><br<br/>
+					</div><br/><br/>
 
 
 			<div class="post-ad-form">
@@ -88,7 +89,7 @@
                         <asp:Label ID="lblRegion" runat="server" Text="Select Region"></asp:Label></td>
                     <td>
                         <asp:DropDownList ID="regionList" runat="server">
-                        <asp:ListItem Text="Select Region" Value="0"></asp:ListItem>
+                        <asp:ListItem Text="Select Region" Value="0" Selected="True"></asp:ListItem>
                         <asp:ListItem Text="Edenvale" ></asp:ListItem>
                         <asp:ListItem Text="Dunvegan" ></asp:ListItem>
                         <asp:ListItem Text="Dowerglen" ></asp:ListItem>
@@ -108,7 +109,7 @@
                     <td style="width: 300px; height: 50px;">
                         <asp:Label ID="lblEmail" runat="server" Text="Your Email"></asp:Label></td>
                     <td style="height: 50px">
-                        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server" Height="25px" Width="130px"></asp:TextBox>
 
                     </td>
                 </tr>
@@ -116,16 +117,18 @@
                     <td style="width: 300px; margin:initial;">
                         <asp:Label ID="lblAddress" runat="server" Text="Your Address"  ></asp:Label></td>
                     <td>
-                        <asp:TextBox ID="txtAddress" TextMode="MultiLine"  runat="server" Height="108px" Width="100px"></asp:TextBox></td>
+                        <asp:TextBox ID="txtAddress" TextMode="MultiLine"  runat="server" Height="52px" Width="130px"></asp:TextBox></td>
                 </tr>
                
 
             </table>
 
                 
-                <a href="ClientProfile.aspx"><asp:Button ID="btnRegister" PostBackUrl="~/ClientProfile.aspx" type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Register" BackColor="#FBCC33" /></a>
+                <%--<a href="ClientProfile.aspx"><asp:Button ID="btnRegister" PostBackUrl="~/ClientProfile.aspx" type="submit" style="width: 250px;height: 50px; top: 0px; left: 0px;" runat="server" Text="Register" BackColor="#FBCC33" /></a>--%>
+                <button type="submit" id="btnReg"  style=" margin-left:700px;" runat="server" class="btn btn-default">Submit</button>
+                 
 
-
+                
 
 				 <%--<form id="form1" runat="server">
 

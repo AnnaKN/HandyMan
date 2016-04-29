@@ -2,31 +2,10 @@
     Inherits System.Web.UI.MasterPage
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
-        If Session("Client") <> Nothing Then
-            userLogged.Visible = True
-            userLogged.InnerHtml = "Welcome " & "<b>" & "<a href=""ClientProfile.aspx"" style=""Color:red"" >" & Session("Client").ToString & "</b> "
-            
-
-            If Session("Worker") Is Nothing Then
-
-
-            Else
-
-                If Session("Worker").ToString = True Then
-
-                    userLogged.Visible = True
-                    userLogged.InnerHtml = "Welcome Worker" & "<a href=""WorkerProfile.aspx"" style=""Color:red"" >" & Session("Worker").ToString & "</a> "
-                    'Delete.Visible = True
-                
-                End If
-
-
-            End If
-
-
+        If Session("UserName") <> Nothing Then
+            userLog.Visible = True
+            userLog.InnerHtml = "<small style=""color:#FBCC33"">Welcome</small> " & "<small style=""color:#01A185""><b>" & Session("UserName").ToString & "</b></small> " & "<a style="" font-size:x-small;""  href=""index.aspx"">(logout)</a>"
         End If
-
     End Sub
 
 End Class

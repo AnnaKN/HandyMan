@@ -12,11 +12,11 @@
 			</ol>
 			<div class="product-desc">
 				<div class="col-md-7 product-view">
-                    <h1>Electrician</h1>
+                    <h1>Garden and Lanscaping</h1>
 					<h4>Previous work done</h4>
-					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#">Edenvale</a></p>
+					<p> <i class="glyphicon glyphicon-map-marker"></i><a href="#">Gauteng</a>, <a href="#"><label id="lblRegion" runat="server" text=""/></a></p>
 					<div class="flexslider">
-                        <img src="images/t1.jpg" />
+                        <img src="images/ImagesG/g1.png" />
 						<!--<ul class="slides">
 							<li data-thumb="images/t1.jpg">
 								<img src="images/t1.jpg" />
@@ -30,24 +30,23 @@
 						</ul>-->
 					</div>
 					<!-- FlexSlider -->
-					  <script defer src="js/jquery.flexslider.js"></script>
+					  <script defer="" src="js/jquery.flexslider.js"></script>
 					<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
 						<script>
-					// Can also be used with $(document).ready()
-					$(window).load(function() {
-					  $('.flexslider').flexslider({
-						animation: "slide",
-						controlNav: "thumbnails"
-					  });
-					});
+						    // Can also be used with $(document).ready()
+						    $(window).load(function () {
+						        $('.flexslider').flexslider({
+						            animation: "slide",
+						            controlNav: "thumbnails"
+						        });
+						    });
 					</script>
 					<!-- //FlexSlider -->
 					<div class="product-details">
-						<h4>Name : <a href="#">Jo M</a></h4>
-                        <h4>Worker Contact Number : <strong>+27762162582</strong></h4>
-						<h4>Worker email : <strong>mail@worker.co.za</strong></h4>
-						<p><strong>Address</strong> : 1 First avenue,  this place, Gauteng</p>
+						<h4>Name : <a href="#"><label id="lblName" runat="server" text=""/> <label id="lblSurname" runat="server" text=""/></a></h4>
+                        <h4>Worker Contact Number : <strong><label id="lblNumber" runat="server" text=""/></strong></h4>
+						<h4>Worker email : <strong><label id="lblEmail" runat="server" text=""/></strong></h4>
                         <a href="RegisterClient.aspx">Update your profile</a>
 					</div>
 
@@ -83,11 +82,6 @@
 				</div>
 				<div class="col-md-5 product-details-grid">
 					<div class="item-price">
-						<div class="product-price">
-							<p class="p-price">Pricing</p>
-							<h3 class="rate">Affordable</h3>
-							<div class="clearfix"></div>
-						</div>
 						<div class="condition">
 							<p class="p-price">Work ethics</p>
 							<h4>Excellent</h4>
@@ -112,14 +106,15 @@
 							<div class="clearfix"></div>
 						</div>
 						<div class="condition">
-							<h5 class="p-price">A. Kapinga, Gauteng Edenvale</h5>
-							<h5><a href="#">Confirm</a></h5>
-							<div class="clearfix"></div>
+							<h5 class="p-price">clientK, Gauteng Edenvale</h5>
+							
+							<h5><a href="ClientProfile1.aspx">Confirm</a>&nbsp;&nbsp;&nbsp; <a href="LeaveComment.aspx"><small>Leave a comment</small></a></h5>
+							
 						</div>
                         <div class="condition">
-							<h5 class="p-price">J. Makou, Gauteng Dunvegan</h5>
-							<h5><a href="#">Confirm</a></h5>
-							<div class="clearfix"></div>
+							<h5 class="p-price">annaK, Gauteng Dunvegan</h5>
+							<h5><a href="ClientProfile2.aspx">Confirm</a>&nbsp;&nbsp;&nbsp;<a href="LeaveComment.aspx"><small>Leave a comment</small></a></h5>
+							
 						</div>
 						
 					</div>
@@ -133,10 +128,19 @@
 							</ul>
 						</div>-->
 				</div>
+
 			<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
+
+
+    </label>
+    </label>
+    </label>
+    </label>
+    </label>
+    </label>
 
 
 </asp:Content>

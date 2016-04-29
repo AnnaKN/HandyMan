@@ -144,8 +144,8 @@ button.close {
     box-shadow: none;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
-	box-shadow: none;
-    background-color: #FFFFFF;
+	box-shadow:none;
+    background-color: #FBCC33;
     border-color: #D1E0EE;
 }
 .btn {
@@ -2395,6 +2395,7 @@ h3.rate {
 }
 .btn-default {
     border-color: #D1E0EE;
+    background-color:#FBCC33;
 }
 .btn {
     display: inline-block;
@@ -2997,7 +2998,7 @@ section.list-right span.price:after {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-.feed-back-form input[type="submit"]:hover 
+.feed-back-form input[type="submit"]:hover{ 
 	color: #000;
 	background-color: #01a185;
 }
@@ -3265,7 +3266,7 @@ pre
     display: BLOCK;
     font-weight: 400;
     float: left;
-    width: 16%;
+    width: 25%;
     text-align: right;
     margin-right: 4%;
 }
@@ -4892,9 +4893,3 @@ label {
 		padding: 20px 0px;
 	}
 }
-
-
-
-
-
-

@@ -12,7 +12,7 @@
 
                      
 				<div class="trend-ads">
-					<h3>Electrical Work</h3><br>
+					<h3>Electrical Work</h3><br/>
                     <br/><br/>
 							<ul id="flexiselDemo3">
 								<li>

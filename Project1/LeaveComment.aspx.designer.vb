@@ -11,32 +11,23 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Site1
+Partial Public Class LeaveComment
 
     '''<summary>
-    '''head control.
+    '''txtComment control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents txtComment As Global.System.Web.UI.HtmlControls.HtmlTextArea
 
     '''<summary>
-    '''userLog control.
+    '''btnSubmit control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents userLog As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''MyBody control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents MyBody As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents btnSubmit As Global.System.Web.UI.HtmlControls.HtmlInputSubmit
 End Class

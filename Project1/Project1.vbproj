@@ -85,11 +85,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AirConditioning.aspx" />
-    <Content Include="App_Data\Database.mdf" />
-    <Content Include="App_Data\Database_log.ldf">
-      <DependentUpon>Database.mdf</DependentUpon>
+    <Content Include="App_Data\Data.mdf" />
+    <Content Include="App_Data\Data_log.ldf">
+      <DependentUpon>Data.mdf</DependentUpon>
     </Content>
     <Content Include="ClientProfile.aspx" />
+    <Content Include="ClientProfile1.aspx" />
+    <Content Include="ClientProfile2.aspx" />
     <Content Include="Electrician.aspx" />
     <Content Include="Faq.aspx" />
     <Content Include="FeaturedWorkers.aspx" />
@@ -209,6 +211,7 @@
     <Content Include="images\t3.jpg" />
     <Content Include="images\t4.jpg" />
     <Content Include="Kitchen.aspx" />
+    <Content Include="LeaveComment.aspx" />
     <Content Include="LoginClient.aspx" />
     <Content Include="LoginWorker.aspx" />
     <Content Include="Move.aspx" />
@@ -461,7 +464,9 @@
     <Content Include="RoofSpecialist.aspx" />
     <Content Include="SecuritySafety.aspx" />
     <Content Include="Tilling.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="WorkerProfile.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -477,6 +482,20 @@
     </Compile>
     <Compile Include="ClientProfile.aspx.vb">
       <DependentUpon>ClientProfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ClientProfile1.aspx.designer.vb">
+      <DependentUpon>ClientProfile1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientProfile1.aspx.vb">
+      <DependentUpon>ClientProfile1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ClientProfile2.aspx.designer.vb">
+      <DependentUpon>ClientProfile2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientProfile2.aspx.vb">
+      <DependentUpon>ClientProfile2.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Electrician.aspx.designer.vb">
@@ -498,7 +517,7 @@
     </Compile>
     <Compile Include="FeaturedWorkers.aspx.vb">
       <DependentUpon>FeaturedWorkers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Feedback.aspx.designer.vb">
       <DependentUpon>Feedback.aspx</DependentUpon>
@@ -512,7 +531,7 @@
     </Compile>
     <Compile Include="GardenLandscaping.aspx.vb">
       <DependentUpon>GardenLandscaping.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="GeyserSpecialist.aspx.designer.vb">
       <DependentUpon>GeyserSpecialist.aspx</DependentUpon>
@@ -533,6 +552,13 @@
     </Compile>
     <Compile Include="Kitchen.aspx.vb">
       <DependentUpon>Kitchen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LeaveComment.aspx.designer.vb">
+      <DependentUpon>LeaveComment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveComment.aspx.vb">
+      <DependentUpon>LeaveComment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="LoginClient.aspx.designer.vb">
@@ -547,7 +573,7 @@
     </Compile>
     <Compile Include="LoginWorker.aspx.vb">
       <DependentUpon>LoginWorker.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Move.aspx.designer.vb">
       <DependentUpon>Move.aspx</DependentUpon>
@@ -561,7 +587,7 @@
     </Compile>
     <Compile Include="PaintDecoration.aspx.vb">
       <DependentUpon>PaintDecoration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PestControl.aspx.designer.vb">
       <DependentUpon>PestControl.aspx</DependentUpon>
@@ -575,7 +601,7 @@
     </Compile>
     <Compile Include="PoolSpecialist.aspx.vb">
       <DependentUpon>PoolSpecialist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Post.aspx.designer.vb">
       <DependentUpon>Post.aspx</DependentUpon>
@@ -589,7 +615,7 @@
     </Compile>
     <Compile Include="PostAdClient.aspx.vb">
       <DependentUpon>PostAdClient.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RegisterWorker.aspx.designer.vb">
       <DependentUpon>RegisterWorker.aspx</DependentUpon>
@@ -645,12 +671,13 @@
       <DependentUpon>RoofSpecialist.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Secrecy.vb" />
     <Compile Include="SecuritySafety.aspx.designer.vb">
       <DependentUpon>SecuritySafety.aspx</DependentUpon>
     </Compile>
     <Compile Include="SecuritySafety.aspx.vb">
       <DependentUpon>SecuritySafety.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>

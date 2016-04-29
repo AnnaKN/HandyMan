@@ -82,8 +82,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><span>HandyMan</span> 2.0</a><br>
-                <label id="userLogged" runat="server"  style="margin-left:700px;"></label>
+				<a href="index.aspx"><span>HandyMan</span> 2.0</a><br/>
+                <label id="userLog" runat="server" text=""></label>
 			</div>
 			<div class="header-right">
 			<a class="account" href="Login.html">My Account</a>
@@ -138,7 +138,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     <div class="banner text-center">
 	  <div class="container">    
-			<h1>Find trusted   <span class="segment-heading">    Man-Of-All-Work Online </span> with HandyMan 2.0</h1>
+			<h1>Find trusted   <span class="segment-heading">    Man-Of-All-Work Online </span></h1>
 			<p>Maintain Your Home</p>
 			<i><img src="images/handyman-white.png" alt=" " /></i>
 	  </div>
